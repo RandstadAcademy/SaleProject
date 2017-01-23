@@ -100,6 +100,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Service References\ServiceClient\SaleProject.ServiceClient.Customer.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Service References\ServiceClient\SaleService.wsdl" />
     <None Include="Service References\ServiceClient\SaleService.xsd">
       <SubType>Designer</SubType>
@@ -119,17 +122,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="SaleForm.aspx" />
     <None Include="Service References\ServiceClient\configuration91.svcinfo" />
     <None Include="Service References\ServiceClient\configuration.svcinfo" />
     <None Include="Service References\ServiceClient\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <Content Include="SaleForm.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Service References\ServiceClient\SaleProject.ServiceClient.Customer.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">

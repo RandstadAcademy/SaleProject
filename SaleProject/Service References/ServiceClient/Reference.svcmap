@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7486433a-f69c-4f2b-b27e-a2fa2942cd36" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9c0d5378-dfca-45e6-93b5-f9ac9c23b340" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,13 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:51976/SaleService.svc?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://192.168.0.190/SaleService.svc?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="SaleService.wsdl" MetadataType="Wsdl" ID="276de249-ad9c-40b4-b373-8c9d1e5cc3b2" SourceId="1" SourceUrl="http://localhost:51976/SaleService.svc?wsdl" />
-    <MetadataFile FileName="SaleService.xsd" MetadataType="Schema" ID="601d401a-9dd7-4bc7-8410-8a1c24156b42" SourceId="1" SourceUrl="http://localhost:51976/SaleService.svc?xsd=xsd2" />
-    <MetadataFile FileName="SaleService1.xsd" MetadataType="Schema" ID="85d7369a-8ebc-4915-afe7-1768292b867c" SourceId="1" SourceUrl="http://localhost:51976/SaleService.svc?xsd=xsd1" />
-    <MetadataFile FileName="SaleService2.xsd" MetadataType="Schema" ID="79efd80e-8cc7-435b-b95f-eb47e17d175d" SourceId="1" SourceUrl="http://localhost:51976/SaleService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SaleService.xsd" MetadataType="Schema" ID="9dbf2a8a-040f-45c5-b401-ebc5feee466d" SourceId="1" SourceUrl="http://192.168.0.190/SaleService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SaleService.wsdl" MetadataType="Wsdl" ID="9ef61a59-e190-4131-bbc7-646a409dc080" SourceId="1" SourceUrl="http://192.168.0.190/SaleService.svc?wsdl" />
+    <MetadataFile FileName="SaleService1.xsd" MetadataType="Schema" ID="74574c4c-034d-4593-99bf-0c1de71ac08f" SourceId="1" SourceUrl="http://192.168.0.190/SaleService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SaleService2.xsd" MetadataType="Schema" ID="777c9d9e-0a38-488b-b5c1-12b174b5b597" SourceId="1" SourceUrl="http://192.168.0.190/SaleService.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
